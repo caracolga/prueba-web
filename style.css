@@ -1,0 +1,55 @@
+/*!
+ * Start Bootstrap - Modern Business (https://startbootstrap.com/template-overviews/modern-business)
+ * Copyright 2013-2019 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-logomodern-business-nav/blob/master/LICENSE)
+ */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
+
+body {
+  padding-top: 56px;
+}
+
+.navbar {
+  font-family: 'Karla', sans-serif;
+}
+
+.carousel-item {
+  height: 65vh;
+  min-height: 300px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.portfolio-item {
+  margin-bottom: 30px;
+}
+
+h1, h2 {
+  margin-bottom: 30px;
+  font-family: 'Playfair Display', serif;
+  color: #e891ec;
+}
+
+h3, h4 {
+  font-family: 'Karla', sans-serif;
+}
+
+h4 a {
+  color: #e891ec;
+}
+
+p {
+  line-height: 1.6;
+  text-justify: auto;
+  font-family: 'Karla', sans-serif;
+}
+
+footer {
+  color: #FFB6C0;
+  padding-top:2rem;
+  font-size: 90%;
+}
