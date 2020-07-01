@@ -2,15 +2,28 @@
 <html lang="en">
 
 <head>
-
-  <meta charset="utf-8">
+  <!-- COMMON TAGS -->
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="">
-  <meta name="author" content="">
-  <meta name="robots" content="nofollow">
-  <meta name="googlebot" content="noindex">
-
+  <meta charset="utf-8">
   <title>Olga F. Vio</title>
+  <link rel="icon" type="image/png" href="favicon.png"/>
+  <!-- Search Engine -->
+  <meta name="description" content="Esta página se hospeda el portafolio de Olga F. Vio y contiene obras de diseño gráfico y editorial, fotografías y escritos de crítica literaria. Pase a mirar con toda confianza.">
+  <meta name="image" content="favicon.png">
+  <!-- Schema.org for Google -->
+  <meta itemprop="name" content="Olga F. Vio">
+  <meta itemprop="description" content="Esta página se hospeda el portafolio de Olga F. Vio y contiene obras de diseño gráfico y editorial, fotografías y escritos de crítica literaria. Pase a mirar con toda confianza.">
+  <meta itemprop="image" content="favicon.png">
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Olga F. Vio">
+  <meta name="twitter:description" content="Esta página se hospeda el portafolio de Olga F. Vio y contiene obras de diseño gráfico y editorial, fotografías y escritos de crítica literaria. Pase a mirar con toda confianza.">
+  <meta name="twitter:image" content="favicon.png">
+  <!-- Open Graph general (Facebook, Pinterest & Google+) -->
+  <meta name="og:title" content="Olga F. Vio">
+  <meta name="og:description" content="Esta página se hospeda el portafolio de Olga F. Vio y contiene obras de diseño gráfico y editorial, fotografías y escritos de crítica literaria. Pase a mirar con toda confianza.">
+  <meta name="og:type" content="website">
+  <meta name="og:image" content="favicon.png">
 
   <!-- Bootstrap core CSS -->
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -23,7 +36,7 @@
 <body>
 
   <!-- Navigation -->
-  <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-transparent fixed-top">
+  <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light fixed-top">
     <div class="container">
       <a class="navbar-brand" href="index.html">Olga F. Vio</a>
       <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
@@ -31,9 +44,6 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav ml-auto">
-          <li class="nav-item">
-            <a class="nav-link" href="about.html">Sobre Mí</a>
-          </li>
           <li class="nav-item active dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownPortfolio" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
               Portafolio
@@ -63,24 +73,40 @@
   <!-- Page Content -->
   <div class="container">
 
-    <!-- Page Heading/Breadcrumbs -->
-    <h1 class="mt-4 mb-3">Diseño
-      <small>Gráfico</small>
-    </h1>
+    <!-- Page Heading -->
+    <h2 class="mt-4 mb-3">Diseño Gráfico</h2>
 
     <!-- Project One -->
     <div class="row">
-      <div class="col-md-7">
+      <div class="col-md-6">
         <a href="#">
-          <img class="img-fluid rounded mb-3 mb-md-0" src="pajaros.jpg" alt="pajaros rosados">
+          <img class="img-fluid rounded mb-3 mb-md-0" src="triza-2.jpg" alt="manifiesto de proyecto TRIZA">
         </a>
       </div>
-      <div class="col-md-5">
-        <h3>Nombre Proyecto 1</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium veniam exercitationem expedita laborum at voluptate. Labore, voluptates totam at aut nemo deserunt rem magni pariatur quos perspiciatis atque eveniet unde.</p>
-        <a class="btn btn-primary" href="#">View Project
-          <span class="glyphicon glyphicon-chevron-right"></span>
-        </a>
+      <div class="col-md-6">
+        <h3>Triza</h3>
+        <p>Desarrollo de marca sobre el re-diseño de un plato tradicional de comida</p>
+        <p>Cocktail ahumado compuesto por licor de plátano, sake japonés y jarabe de porotos servido en berenjena subzero.</p>
+      <!-- Button trigger modal -->
+      <button type="button" class="btn btn-light" data-toggle="modal" data-target="#Modal1">Muéstrame más</button>
+      <!-- Modal -->
+      <div class="modal fade" id="Modal1" tabindex="-1" role="dialog" aria-labelledby="Modal1Label" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="Modal1Label">Triza</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <a href="#">
+                <img class="img-fluid rounded mb-3 mb-md-0" src="triza-1.jpg" alt="lámina de proyecto TRIZA">
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
       </div>
     </div>
     <!-- /.row -->
@@ -89,17 +115,35 @@
 
     <!-- Project Two -->
     <div class="row">
-      <div class="col-md-7">
+      <div class="col-md-6">
         <a href="#">
-          <img class="img-fluid rounded mb-3 mb-md-0" src="pajaros.jpg" alt="pajaros rosados">
+          <img class="img-fluid rounded mb-3 mb-md-0" src="zita.jpg" alt="guantes amarillos y celeste que portan y sostienen lujuriosas joyas">
         </a>
       </div>
       <div class="col-md-5">
-        <h3>Nombre Proyecto 2</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut, odit velit cumque vero doloremque repellendus distinctio maiores rem expedita a nam vitae modi quidem similique ducimus! Velit, esse totam tempore.</p>
-        <a class="btn btn-primary" href="#">View Project
-          <span class="glyphicon glyphicon-chevron-right"></span>
-        </a>
+        <h3>Zita</h3>
+        <p>Desarrollo de gráfica sobre el análisis de la película La Nana (2009).</p>
+        <p>La labor silenciosa de las trabajadoras domésticas sostiene los hogares de muchas familias en Chile, sostiene la vida en sus múltiples frentes, prepara, limpia y alimenta la fuerza de trabajo productiva a lo largo del territorio, en su silencio se esconde y pasa desapercibida. </p>
+        <!-- Button trigger modal -->
+        <button type="button" class="btn btn-light" data-toggle="modal" data-target="#Modal2">muéstrame más</button>
+        <!-- Modal -->
+        <div class="modal fade" id="Modal2" tabindex="-1" role="dialog" aria-labelledby="Modal2Label" aria-hidden="true">
+          <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="Modal2Label">Zita</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <a href="#">
+                  <img class="img-fluid rounded mb-3 mb-md-0" src="zita-1.jpg" alt="detalle de obra Zita">
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
     <!-- /.row -->
@@ -110,15 +154,32 @@
     <div class="row">
       <div class="col-md-7">
         <a href="#">
-          <img class="img-fluid rounded mb-3 mb-md-0" src="pajaros.jpg" alt="pajaros rosados">
+          <img class="img-fluid rounded mb-3 mb-md-0" src="semilla-1.jpg" alt="lámina sobre germinación de una semilla">
         </a>
       </div>
       <div class="col-md-5">
-        <h3>Nombre Proyecto 3</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis, temporibus, dolores, at, praesentium ut unde repudiandae voluptatum sit ab debitis suscipit fugiat natus velit excepturi amet commodi deleniti alias possimus!</p>
-        <a class="btn btn-primary" href="#">View Project
-          <span class="glyphicon glyphicon-chevron-right"></span>
-        </a>
+        <h3>Semillas</h3>
+        <p>Infografías para taller sobre extracción y germinación de semillas para niños y niñas.</p>
+        <!-- Button trigger modal -->
+        <button type="button" class="btn btn-light" data-toggle="modal" data-target="#Modal3">Lámina 2</button>
+        <!-- Modal -->
+        <div class="modal fade" id="Modal3" tabindex="-1" role="dialog" aria-labelledby="Modal3Label" aria-hidden="true">
+          <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="Modal3Label">Semillas</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <a href="#">
+                  <img class="img-fluid rounded mb-3 mb-md-0" src="semilla-2.jpg" alt="lámina sobre extracción de semillas">
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
     <!-- /.row -->
@@ -127,50 +188,79 @@
 
     <!-- Project Four -->
     <div class="row">
-
-      <div class="col-md-7">
+      <div class="col-md-5">
         <a href="#">
-          <img class="img-fluid rounded mb-3 mb-md-0" src="pajaros.jpg" alt="pajaros rosados">
+          <img class="img-fluid rounded mb-3 mb-md-0" src="sabiasque-1.jpg">
         </a>
       </div>
       <div class="col-md-5">
-        <h3>Nombre Proyecto 4</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo, quidem, consectetur, officia rem officiis illum aliquam perspiciatis aspernatur quod modi hic nemo qui soluta aut eius fugit quam in suscipit?</p>
-        <a class="btn btn-primary" href="#">View Project
-          <span class="glyphicon glyphicon-chevron-right"></span>
-        </a>
+        <h3>¿Sabías qué?</h3>
+        <p>Activación en redes sociales sobre datos respecto al modelo energético en Chile, días previos a foro del mismo tema organizado por <a href="https://www.instagram.com/p/ByWrB3InSCV/">La Güiña</a> en la Facultad de Derecho UCH.</p>
+        <!-- Button trigger modal -->
+        <button type="button" class="btn btn-light" data-toggle="modal" data-target="#Modal4">Datos</button>
+        <!-- Modal -->
+        <div class="modal fade" id="Modal4" tabindex="-1" role="dialog" aria-labelledby="Modal4Label" aria-hidden="true">
+          <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="Modal4Label">¿Sabías qué?</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <a href="#">
+                  <img class="img-fluid rounded mb-3 mb-md-0" src="sabiasque-2.jpg" alt="dato sobre modelo energético">
+                  <img class="img-fluid rounded mb-3 mb-md-0" src="sabiasque-3.jpg" alt="dato sobre modelo energético">
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        </div>
       </div>
-    </div>
     <!-- /.row -->
 
     <hr>
 
     <!-- Project Five -->
     <div class="row">
-
-      <div class="col-md-7">
+      <div class="col-md-5">
         <a href="#">
-          <img class="img-fluid rounded mb-3 mb-md-0" src="pajaros.jpg" alt="pajaros rosados">
+          <img class="img-fluid rounded mb-3 mb-md-0" src="chileanmalegaze-1.jpg">
         </a>
       </div>
       <div class="col-md-5">
-        <h3>Nombre Proyecto 5</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo, quidem, consectetur, officia rem officiis illum aliquam perspiciatis aspernatur quod modi hic nemo qui soluta aut eius fugit quam in suscipit?</p>
-        <a class="btn btn-primary" href="#">View Project
-          <span class="glyphicon glyphicon-chevron-right"></span>
-        </a>
+        <h3>Chilean Male Gaze</h3>
+        <p>Lámina realizada sobre el análisis de presencia de mujeres en películas chilenas con más de 100.000 espectadores.</p>
+        <!-- Button trigger modal -->
+        <button type="button" class="btn btn-light" data-toggle="modal" data-target="#Modal5">Lámina</button>
+        <!-- Modal -->
+        <div class="modal fade" id="Modal5" tabindex="-1" role="dialog" aria-labelledby="Modal5Label" aria-hidden="true">
+          <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="Modal5Label">Chilean Male Gaze</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <a href="#">
+                  <img class="img-fluid rounded mb-3 mb-md-0" src="chileanmalegaze-2.jpg">
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        </div>
       </div>
-    </div>
-    <!-- /.row -->
+    </div> <!-- /.row -->
+  </div> <!-- container -->
 
-    <hr>
-
-
-  </div>
-  <!-- /.container -->
-
+  <hr>
   <!-- Footer -->
-  <footer class="py-5 bg-transparent">
+  <footer class="py-2 bg-transparent">
     <div class="container">
       <p class="m-0 text-center text-dark">Copyright &copy; Olga F. Vio 2020</p>
     </div>
